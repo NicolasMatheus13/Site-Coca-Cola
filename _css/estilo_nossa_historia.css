@@ -31,6 +31,38 @@ body {
 	box-shadow: 1px 10px 40px black;	
 }
 
+#cabecalho #menu nav ul ul {
+	position: absolute;
+	width: 200px;
+	display: none;
+	background-color: #ff182700;
+	border-radius: 15px;
+}
+
+#cabecalho #menu nav ul ul li:hover {
+	background-color: #ffffff;
+}
+
+#cabecalho #menu nav ul ul li {
+	font-size: 21px;
+	display: block;
+	background: #ff1828;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+	font-size: 24px;
+	text-align: center;
+	margin: 1px;
+	border-radius: 10px;
+}
+
+#cabecalho #menu nav ul li:hover ul {
+	position: absolute;
+	left: 450px;
+	display: block;
+}
+
+
 #cabecalho #menu nav ul {
 	margin: 0;
 	padding: 0;
@@ -561,7 +593,7 @@ body {
 	position: absolute;
 	top: 50px;
 	left: -40px;
-	width: 700px;
+	width: 900px;
 	margin: 0 auto;
 	padding: 50px;
 	overflow: hidden;
@@ -654,6 +686,26 @@ body {
 	background-size: 400px 400px;
 }
 #albumfotos #foto6:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+#albumfotos #foto7 {
+	background: url('../_img/foto7.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+}
+#albumfotos #foto7:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+#albumfotos #foto8 {
+	background: url('../_img/foto8.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+}
+#albumfotos #foto8:hover {
 	background-position: 0px 0px;
 	background-size: 200px 200px;
 }
