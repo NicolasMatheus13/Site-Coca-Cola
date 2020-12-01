@@ -255,16 +255,22 @@ body {
 #corpo #fim #lista-musicas p {
 	color: #ffffff;
 	font-family: Calibri; Arial; Segoe UI;
+	position: relative;
+	left: 20px;
 }
 
 #corpo #fim #lista-musicas-2 p {
 	color: #ffffff;
 	font-family: Calibri; Arial; Segoe UI;
+	position: relative;
+	left: 20px;
 }
 
 #corpo #fim #lista-musicas-3 p {
 	color: #ffffff;
 	font-family: Calibri; Arial; Segoe UI;
+	position: relative;
+	left: 20px;
 }
 
 #corpo #fim img {
@@ -305,7 +311,7 @@ body {
 
 #rodape .rodape {
 	position: absolute;
-	top: 1916px;
+	top: 1416px;
 }
 
 #rodape h5 {
