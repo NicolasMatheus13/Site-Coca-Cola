@@ -33,6 +33,7 @@ body {
 
 #cabecalho #menu nav ul ul {
 	position: absolute;
+	top: 52px;
 	width: 200px;
 	display: none;
 	background-color: #ff182700;
