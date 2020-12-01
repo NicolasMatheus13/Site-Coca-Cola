@@ -233,11 +233,22 @@ body {
 	left: 700px;
 }
 
+#corpo #fim #lista-musicas-3 {
+	z-index: 1;
+	position: absolute;
+	top: 110px;
+	left: 100px;
+}
+
 #corpo #fim #lista-musicas li {
 	padding: 10px;
 }
 
 #corpo #fim #lista-musicas-2 li {
+	padding: 10px;
+}
+
+#corpo #fim #lista-musicas-3 li {
 	padding: 10px;
 }
 
@@ -247,6 +258,11 @@ body {
 }
 
 #corpo #fim #lista-musicas-2 p {
+	color: #ffffff;
+	font-family: Calibri; Arial; Segoe UI;
+}
+
+#corpo #fim #lista-musicas-3 p {
 	color: #ffffff;
 	font-family: Calibri; Arial; Segoe UI;
 }
