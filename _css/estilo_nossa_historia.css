@@ -144,103 +144,10 @@ body {
 	background-color: rgba(235, 235, 235, 0.808);
 }
 
-
 #corpo {
 	margin-top: 100%;
 	padding: 0;
 }
-
-#rodape {
-	margin: 0;
-	padding: 0;
-}
-
-#rodape .rodape {
-	position: absolute;
-	top: 4900px;
-}
-
-#rodape h5 {
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 5500px;
-	left: 500px;
-	font-family: Calibri; Arial; Segoe UI;
-	color: #ffffff;
-}
-
-#rodape .sociais {
-	position: absolute;
-	top: 5405px;
-	left: 995px;
-}
-
-#rodape .sociais li {
-	margin: 0;
-	padding: 3px;
-	display: inline;
-}
-
-#rodape .sociais li:hover {
-	filter: invert(1);
-}
-
-#rodape .outros1 ul {
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 5280px;
-	left: 800px;
-	font-family: Calibri; Arial; Segoe UI;
-	color: #ffffff;
-}
-
-#rodape .outros1 ul li a {
-	color: #ffffff;	
-	text-decoration: none;
-}
-
-#rodape .outros1 ul li a:hover {
-	text-decoration: none;
-	color: #ff1828;
-}
-
-#rodape .outros2 ul {
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 5280px;
-	left: 500px;
-	font-family: Calibri; Arial; Segoe UI;
-	color: #ffffff;
-}
-
-#rodape .outros2 ul li a {
-	color: #ffffff;	
-	text-decoration: none;
-}
-
-#rodape .outros2 ul li a:hover {
-	text-decoration: none;
-	color: #ff1828;
-}
-
-#rodape #contato a {
-	font-size: 18px;
-	position: absolute;
-	top: 5260px;
-	left: 1030px;
-	font-family: Calibri; Arial; Segoe UI;
-	color: #ffffff;
-	text-decoration: none;
-}
-
-#rodape #contato a:hover {
-	color: #ff1828;
-}
-
-/* Página nossa história*/
 
 #corpo #desenvolvimento img {
 	float: left;
@@ -708,4 +615,94 @@ body {
 #albumfotos #foto8:hover {
 	background-position: 0px 0px;
 	background-size: 200px 200px;
+}
+
+#rodape {
+	margin: 0;
+	padding: 0;
+}
+
+#rodape .rodape {
+	position: absolute;
+	top: 4900px;
+}
+
+#rodape h5 {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 5500px;
+	left: 500px;
+	font-family: Calibri; Arial; Segoe UI;
+	color: #ffffff;
+}
+
+#rodape .sociais {
+	position: absolute;
+	top: 5405px;
+	left: 995px;
+}
+
+#rodape .sociais li {
+	margin: 0;
+	padding: 3px;
+	display: inline;
+}
+
+#rodape .sociais li:hover {
+	filter: invert(1);
+}
+
+#rodape .outros1 ul {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 5280px;
+	left: 800px;
+	font-family: Calibri; Arial; Segoe UI;
+	color: #ffffff;
+}
+
+#rodape .outros1 ul li a {
+	color: #ffffff;	
+	text-decoration: none;
+}
+
+#rodape .outros1 ul li a:hover {
+	text-decoration: none;
+	color: #ff1828;
+}
+
+#rodape .outros2 ul {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 5280px;
+	left: 500px;
+	font-family: Calibri; Arial; Segoe UI;
+	color: #ffffff;
+}
+
+#rodape .outros2 ul li a {
+	color: #ffffff;	
+	text-decoration: none;
+}
+
+#rodape .outros2 ul li a:hover {
+	text-decoration: none;
+	color: #ff1828;
+}
+
+#rodape #contato a {
+	font-size: 18px;
+	position: absolute;
+	top: 5260px;
+	left: 1030px;
+	font-family: Calibri; Arial; Segoe UI;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#rodape #contato a:hover {
+	color: #ff1828;
 }
