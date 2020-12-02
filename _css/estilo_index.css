@@ -157,7 +157,7 @@ body {
 	left: 0px;
 	margin: 0;
 	animation: slide 20s infinite;
-	animate-direction: alternate;
+	animation-direction: alternate;
 }
 
 
