@@ -213,6 +213,8 @@ body {
 	position: absolute;
 	left: 250px;
 	top: -250px;
+	animation: slide1 20s infinite;
+	animation-direction: alternate;
 }
 
 #corpo #meio #oferta1 img {
@@ -254,6 +256,26 @@ body {
 #corpo #meio #oferta1 #forma h2 b {
 	color: #723900;
 	font-size: 40px;
+}
+
+@keyframes slide1 {
+	0%, 5% {
+		transform: translateX(200px);
+		opacity: 0;
+	}
+
+	5%, 30% {
+		opacity: 0;
+	}
+
+	30%, 85% {
+		opacity: 100;
+		transform: translateX(-50px);	
+	}
+	95%, 100% {
+		transform: translateX(-300px);	
+		opacity: 0;
+	}
 }
 
 #corpo #meio #ButtonOfertas button {
