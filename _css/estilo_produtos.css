@@ -149,6 +149,15 @@ body {
 	padding: 0;	
 }
 
+#corpo h1 {
+	font-family: Calibri; Arial; Segoe UI;
+	font-size: 60px;
+	padding: 20px;
+	position: absolute;
+	top: 110px;
+	left: 450px;
+}
+
 #rodape {
 	margin: 0;
 	padding: 0;
