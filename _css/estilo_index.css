@@ -209,10 +209,57 @@ body {
 	top: 600px;	
 }
 
+#corpo #meio #oferta1 {
+	position: absolute;
+	left: 250px;
+	top: -250px;
+}
+
+#corpo #meio #oferta1 img {
+	position: absolute;
+	left: 30px;
+	top: 350px;
+}
+
+#corpo #meio #oferta1 h1 {
+	font-family: Calibri;
+	font-size: 64px;
+	color: red;
+	position: absolute;
+	top: 250px;
+	left: 200px;
+}
+
+#corpo #meio #oferta1 #forma {
+	position: absolute;
+	top: 450px;
+	left: 500px;
+	width: 340px;
+	height: 300px;
+	border: solid;
+	background-color: red;
+	color: #ffffff;
+	border-radius: 300px;
+}
+
+#corpo #meio #oferta1 #forma h2 {
+	font-family: Calibri;
+	font-size: 28px;
+	position: absolute;
+	top: 30px;
+	left: 90px;
+	width: 190px;
+}
+
+#corpo #meio #oferta1 #forma h2 b {
+	color: #723900;
+	font-size: 40px;
+}
+
 #corpo #meio #ButtonOfertas button {
 	z-index: 1;
 	position: absolute;
-	top: 470px;
+	top: 570px;
 	left: 550px;
 	width: 220px;
 	height: 50px;
