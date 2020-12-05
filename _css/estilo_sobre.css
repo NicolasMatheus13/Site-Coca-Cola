@@ -221,6 +221,14 @@ body {
 	padding: 0;
 }
 
+#rodape #faixa-final {
+	height: 57px;
+	width: 100%;
+	position: absolute;
+	top: 2493px;
+	background-color: black;
+}
+
 #rodape .rodape {
 	position: absolute;
 	top: 1216px;
